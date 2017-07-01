@@ -1,0 +1,22 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="cyclop.png" transparentColor="">
+ <animation title="stay" delay="300">
+  <cut w="44" x="37" y="160" h="75" row="1" col="1"/>
+  <cut w="44" x="140" y="160" h="75" row="1" col="1"/>
+ </animation>
+ <animation title="shoot" delay="300">
+  <cut w="55" x="33" y="272" h="43" row="1" col="1"/>
+  <cut w="59" x="619" y="1033" h="43" row="1" col="1"/>
+ </animation>
+ <animation title="walk" delay="150">
+  <cut w="31" x="34" y="361" h="76" row="1" col="1"/>
+  <cut w="60" x="135" y="361" h="74" row="1" col="1"/>
+  <cut w="55" x="259" y="362" h="75" row="1" col="1"/>
+  <cut w="31" x="397" y="361" h="76" row="1" col="1"/>
+  <cut w="60" x="494" y="360" h="74" row="1" col="1"/>
+  <cut w="56" x="621" y="362" h="75" row="1" col="1"/>
+ </animation>
+ <animation title="hit" delay="150">
+  <cut w="48" x="704" y="167" h="68" row="1" col="1"/>
+ </animation>
+</sprites>

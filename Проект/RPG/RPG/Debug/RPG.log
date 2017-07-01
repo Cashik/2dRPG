@@ -1,0 +1,66 @@
+﻿  main.cpp
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(60): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(144): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(145): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(185): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(242): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(263): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(264): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(265): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(266): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(309): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(320): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(342): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\level.hpp(343): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\animation.hpp(36): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\animation.hpp(66): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\animation.hpp(94): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\animation.hpp(110): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\animation.hpp(125): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\animation.hpp(141): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\animation.hpp(143): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\entity.hpp(26): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\entity.hpp(27): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\entity.hpp(40): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\entity.hpp(55): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\entity.hpp(56): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\bullet.hpp(23): warning C4244: -=: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\bullet.hpp(25): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(31): warning C4305: =: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(38): warning C4305: =: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(45): warning C4305: =: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(46): warning C4305: =: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(53): warning C4305: =: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(118): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(130): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(146): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(156): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(172): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(176): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(183): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\player.hpp(187): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\enemy.hpp(13): warning C4305: аргумент: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\movingplatform.hpp(11): warning C4305: аргумент: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\megaman.hpp(16): warning C4305: =: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\megaman.hpp(23): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\megaman.hpp(24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\megaman.hpp(26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\megaman.hpp(27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\cyclop.hpp(24): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\cyclop.hpp(26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\cyclop.hpp(27): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(57): warning C4305: аргумент: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(73): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(81): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(82): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(85): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(86): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(93): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(95): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(120): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(137): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(140): warning C4305: аргумент: усечение из "double" к "float"
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(140): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+c:\users\cashik\desktop\works\2drpg\проект\rpg\rpg\source\game.hpp(187): warning C4305: =: усечение из "double" к "float"
+  RPG.vcxproj -> C:\Users\Cashik\Desktop\works\2dRPG\Проект\RPG\Debug\RPG.exe
+  RPG.vcxproj -> C:\Users\Cashik\Desktop\works\2dRPG\Проект\RPG\Debug\RPG.pdb (Full PDB)

@@ -1,0 +1,10 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="bigEnemy.png" transparentColor="FFFFFF">
+ <animation title="move" delay="500">
+  <cut w="32" x="0" y="0" h="32" row="1" col="1"/>
+  <cut w="32" x="36" y="0" h="32" row="1" col="1"/>
+ </animation>
+ <animation title="dead" delay="3000">
+  <cut w="31" x="110" y="16" h="16" row="1" col="1"/>
+ </animation>
+</sprites>

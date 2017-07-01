@@ -1,0 +1,8 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="cyclop.png" transparentColor="">
+ <animation title="hit" delay="150">
+  <cut w="72" x="335" y="743" h="57" row="1" col="1"/>
+  <cut w="72" x="476" y="743" h="57" row="1" col="1"/>
+  <cut w="72" x="612" y="744" h="57" row="1" col="1"/>
+ </animation>
+</sprites>

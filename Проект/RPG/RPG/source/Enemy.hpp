@@ -1,0 +1,36 @@
+#ifndef ENEMY_H
+#define ENEMY_H
+
+#include "Entity.hpp"
+
+
+class ENEMY : public Entity
+{
+public:
+
+	ENEMY(AnimationManager &a, Level &lev, int x, int y) :Entity(a, x, y)
+	{
+		option("Enemy", 0.02, rand()%100+60, "move");
+	}
+
+	void update(float time)
+	{
+		x += dx*time;
+		timer += time;
+		if (timer > 3200) { 
+			dx *= -1; 
+			timer = 0; 
+		}
+
+		if (Health <= 0) {
+			anim.set("dead");
+			dx = 0;
+			if (anim.isPlaying() == false)
+				life = false;
+		}
+
+		anim.tick(time);
+	}
+};
+
+#endif ENEMY_H
