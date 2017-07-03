@@ -9,15 +9,15 @@ class PLAYER : public Entity
 public:
 	enum { stay, walk, duck, jump, climb, swim } STATE;
 	bool onLadder, shoot, hit;
-	int experience = 0,	experienceToNextLevel=100, level = 1;
-	float shoot_cd,damage, hpRegen,lastShootTime=0;
+	int experience = 0, experienceToNextLevel = 100, level = 1;
+	float shoot_cd, damage, hpRegen, lastShootTime = 0;
 
 
 	std::map<std::string, bool> key;
 
 	PLAYER(AnimationManager &a, Level &lev, int x, int y) :Entity(a, x, y)
 	{
-		
+
 		option("Player", 0, 100, "stay");
 		STATE = stay; hit = false;
 		obj = lev.GetAllObjects();
@@ -53,10 +53,10 @@ public:
 			if (STATE == climb) dy = 0.05;
 		}
 
-		if (key["Space"] )
+		if (key["Space"])
 		{
 			shoot = true;
-			
+
 		}
 
 		/////////////////////если клавиша отпущена///////////////////////////
@@ -126,8 +126,8 @@ public:
 		else {
 			life = false;
 		}
-		
-		lastShootTime += time/1000.;
+
+		lastShootTime += time / 1000.;
 
 		if (experience >= experienceToNextLevel) {
 			lvlUp();
@@ -142,7 +142,7 @@ public:
 
 	void lvlUp() {
 		level += 1;
-		experience = experience-experienceToNextLevel;
+		experience = experience - experienceToNextLevel;
 		experienceToNextLevel = experienceToNextLevel*1.1 + 20;
 		upStats();
 	}

@@ -1,6 +1,0 @@
-<!DOCTYPE SpriteDecomposer>
-<sprites image="cyclop.png" transparentColor="">
- <animation title="asdsad" delay="150">
-  <cut w="27" x="358" y="846" h="91" row="1" col="1"/>
- </animation>
-</sprites>

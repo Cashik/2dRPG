@@ -24,7 +24,7 @@ public:
 };
 
 
-string RunGame(int heroNumber, int lvlNumber)
+string RunGame(int heroNumber)
 {
 	///////////// инициализация ///////////////////////////
 	RenderWindow window(VideoMode(640, 320), "The Game!");
@@ -32,7 +32,7 @@ string RunGame(int heroNumber, int lvlNumber)
 	View view(FloatRect(0, 0, 640, 320));
 
 	Level lvl;
-	lvl.LoadFromFile("files/Level" + to_string(lvlNumber) + ".tmx");
+	lvl.LoadFromFile("files/Level1.tmx");
 
 	Texture enemy_t, moveplatform_t, megaman_t, bullet_t, cyclop_t, bg;
 	bg.loadFromFile("files/images/bg.png");
@@ -55,7 +55,7 @@ string RunGame(int heroNumber, int lvlNumber)
 	AnimationManager bulletAnim, laserAnim;
 	bulletAnim.create("move", bullet_t, 7, 10, 8, 8, 1, 0);
 	bulletAnim.create("explode", bullet_t, 27, 7, 18, 18, 4, 0.01, 29, false);
-	laserAnim.loadFromXML("files/laser.xml", cyclop_t);
+	laserAnim.loadFromXML("files/hit.xml", cyclop_t);
 	laserAnim.animList["explode"].loop = 0;
 
 
@@ -137,7 +137,7 @@ string RunGame(int heroNumber, int lvlNumber)
 							entities.push_back(new Bullet(bulletAnim, lvl, player.x + 18, player.y + 18, player.dir));
 						}
 						else {
-							entities.push_back(new Bullet(laserAnim, lvl, player.x + ((player.dir) ? (0) : (60)), player.y + 25, player.dir, 0.01, 0.5));
+							entities.push_back(new Bullet(laserAnim, lvl, player.x + ((player.dir) ? (-10) : (65)), player.y + 25, player.dir, 0.01, 0.5));
 						}
 						player.lastShootTime = 0;
 					}

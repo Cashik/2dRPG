@@ -20,7 +20,7 @@ public:
 	}
 
 	virtual void upStats() {
-		shoot_cd = shoot*0.9;
+		shoot_cd = shoot_cd*0.9;
 		damage = damage*1.1;
 		hpRegen += 0.5;
 		maxHealth = maxHealth*1.1;
